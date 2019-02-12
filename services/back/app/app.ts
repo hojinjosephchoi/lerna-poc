@@ -1,5 +1,5 @@
 export function handler() {
-  console.log('[back] back called from api');
+  console.log('[back] back called');
 }
 
 handler();
