@@ -2,5 +2,14 @@
   "packages": [
     "services/*"
   ],
-  "version": "independent"
+  "version": "independent",
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "**/*.md",
+        "**/example/**",
+        "**/test/**"
+      ]
+    }
+  }
 }
