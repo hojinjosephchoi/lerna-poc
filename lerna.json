@@ -3,7 +3,7 @@
     "services/*"
   ],
   "version": "independent",
-  "commands": {
+  "command": {
     "publish": {
       "ignoreChanges": [
         "**/*.md",
